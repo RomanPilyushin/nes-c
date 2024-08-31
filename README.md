@@ -36,26 +36,12 @@
 
 ### Compile Preparation
 
-#### Windows:	
-
-​	install MSVC([Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/vs/))
-
-​	install [xmake](https://github.com/xmake-io/xmake)
-
 #### Linux(Ubuntu):
 
 ```shell
 sudo add-apt-repository ppa:xmake-io/xmake -y
 sudo apt-get update -y
 sudo apt-get install -y git make gcc p7zip-full libsdl2-dev xmake
-```
-
-#### Macox:
-
-```shell
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew update
-brew install make gcc sdl2 xmake
 ```
 
 ### Compilation Method
@@ -65,8 +51,6 @@ brew install make gcc sdl2 xmake
 ## Instructions
 
 ​	on linux or macos enter  `./nes xxx.nes` load the game to run
-
-​	on windows enter `.\nes.exe xxx.nes` load the game to run
 
 ## Key mapping
 
