@@ -8,19 +8,19 @@
 
 **Platform support:**
 
-- [x] Windows
+- [ ] Windows
 
 - [x] Linux
 
-- [x] MacOS
+- [ ] MacOS
 
 **Simulator support：**
 
 - [x] CPU
 
-- [x] PPU
+- [ ] PPU
 
-- [x] APU
+- [ ] APU
 
 **mapper  support：**
 
