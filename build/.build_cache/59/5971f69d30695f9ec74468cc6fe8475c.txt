@@ -1,0 +1,7 @@
+{
+    errdata = "\27[01m\27[Ksrc/nes_mapper/nes_mapper7.c:\27[m\27[K In function ‘\27[01m\27[Knes_mapper_write\27[m\27[K’:\
+\27[01m\27[Ksrc/nes_mapper/nes_mapper7.c:43:51:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused parameter ‘\27[01m\27[Kaddress\27[m\27[K’ [\27[01;35m\27[K-Wunused-parameter\27[m\27[K]\
+   43 | static void nes_mapper_write(nes_t* nes, \27[01;35m\27[Kuint16_t address\27[m\27[K, uint8_t date) {\
+      |                                          \27[01;35m\27[K~~~~~~~~~^~~~~~~\27[m\27[K\
+"
+}

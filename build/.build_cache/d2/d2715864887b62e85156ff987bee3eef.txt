@@ -1,0 +1,13 @@
+{
+    errdata = "\27[01m\27[Ksrc/nes_mapper/nes_mapper0.c:\27[m\27[K In function ‘\27[01m\27[Knes_mapper_write\27[m\27[K’:\
+\27[01m\27[Ksrc/nes_mapper/nes_mapper0.c:32:37:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused parameter ‘\27[01m\27[Knes\27[m\27[K’ [\27[01;35m\27[K-Wunused-parameter\27[m\27[K]\
+   32 | static void nes_mapper_write(\27[01;35m\27[Knes_t* nes\27[m\27[K, uint16_t write_addr, uint8_t data ){\
+      |                              \27[01;35m\27[K~~~~~~~^~~\27[m\27[K\
+\27[01m\27[Ksrc/nes_mapper/nes_mapper0.c:32:51:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused parameter ‘\27[01m\27[Kwrite_addr\27[m\27[K’ [\27[01;35m\27[K-Wunused-parameter\27[m\27[K]\
+   32 | static void nes_mapper_write(nes_t* nes, \27[01;35m\27[Kuint16_t write_addr\27[m\27[K, uint8_t data ){\
+      |                                          \27[01;35m\27[K~~~~~~~~~^~~~~~~~~~\27[m\27[K\
+\27[01m\27[Ksrc/nes_mapper/nes_mapper0.c:32:71:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused parameter ‘\27[01m\27[Kdata\27[m\27[K’ [\27[01;35m\27[K-Wunused-parameter\27[m\27[K]\
+   32 | static void nes_mapper_write(nes_t* nes, uint16_t write_addr, \27[01;35m\27[Kuint8_t data\27[m\27[K ){\
+      |                                                               \27[01;35m\27[K~~~~~~~~^~~~\27[m\27[K\
+"
+}

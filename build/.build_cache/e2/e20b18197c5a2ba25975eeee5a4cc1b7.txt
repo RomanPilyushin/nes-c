@@ -1,0 +1,15 @@
+{
+    errdata = "\27[01m\27[Ksrc/nes_cpu.c:\27[m\27[K In function ‘\27[01m\27[Knes_abs\27[m\27[K’:\
+\27[01m\27[Ksrc/nes_cpu.c:179:102:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Koperation on ‘\27[01m\27[Knes->nes_cpu.PC\27[m\27[K’ may be undefined [\27[01;35m\27[K-Wsequence-point\27[m\27[K]\
+  179 |     uint16_t address = nes_read_cpu(nes,nes->nes_cpu.PC++)|(uint16_t)nes_read_cpu(nes,\27[01;35m\27[Knes->nes_cpu.PC++\27[m\27[K) << 8;\
+      |                                                                                       \27[01;35m\27[K~~~~~~~~~~~~~~~^~\27[m\27[K\
+\27[01m\27[Ksrc/nes_cpu.c:\27[m\27[K In function ‘\27[01m\27[Knes_rti\27[m\27[K’:\
+\27[01m\27[Ksrc/nes_cpu.c:808:76:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Koperation on ‘\27[01m\27[Knes->nes_cpu.SP\27[m\27[K’ may be undefined [\27[01;35m\27[K-Wsequence-point\27[m\27[K]\
+  808 |     nes->nes_cpu.PC = (uint16_t)NES_POPW(nes);\
+      |                                                                            \27[01;35m\27[K^\27[m\27[K                \
+\27[01m\27[Ksrc/nes_cpu.c:\27[m\27[K In function ‘\27[01m\27[Knes_rts\27[m\27[K’:\
+\27[01m\27[Ksrc/nes_cpu.c:832:76:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Koperation on ‘\27[01m\27[Knes->nes_cpu.SP\27[m\27[K’ may be undefined [\27[01;35m\27[K-Wsequence-point\27[m\27[K]\
+  832 |     nes->nes_cpu.PC = (uint16_t)NES_POPW(nes);\
+      |                                                                            \27[01;35m\27[K^\27[m\27[K                \
+"
+}

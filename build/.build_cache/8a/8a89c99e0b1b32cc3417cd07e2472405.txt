@@ -1,0 +1,18 @@
+{
+    errdata = "\27[01m\27[Kport/nes_port.c:\27[m\27[K In function ‘\27[01m\27[KAudioCallback\27[m\27[K’:\
+\27[01m\27[Kport/nes_port.c:199:62:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused parameter ‘\27[01m\27[Klen\27[m\27[K’ [\27[01;35m\27[K-Wunused-parameter\27[m\27[K]\
+  199 | static void AudioCallback(void* userdata, Uint8* stream, \27[01;35m\27[Kint len\27[m\27[K) {\
+      |                                                          \27[01;35m\27[K~~~~^~~\27[m\27[K\
+\27[01m\27[Kport/nes_port.c:\27[m\27[K In function ‘\27[01m\27[Knes_sound_output\27[m\27[K’:\
+\27[01m\27[Kport/nes_port.c:207:31:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused parameter ‘\27[01m\27[Kbuffer\27[m\27[K’ [\27[01;35m\27[K-Wunused-parameter\27[m\27[K]\
+  207 | int nes_sound_output(\27[01;35m\27[Kuint8_t *buffer\27[m\27[K, size_t len){\
+      |                      \27[01;35m\27[K~~~~~~~~~^~~~~~\27[m\27[K\
+\27[01m\27[Kport/nes_port.c:207:46:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused parameter ‘\27[01m\27[Klen\27[m\27[K’ [\27[01;35m\27[K-Wunused-parameter\27[m\27[K]\
+  207 | int nes_sound_output(uint8_t *buffer, \27[01;35m\27[Ksize_t len\27[m\27[K){\
+      |                                       \27[01;35m\27[K~~~~~~~^~~\27[m\27[K\
+\27[01m\27[Kport/nes_port.c:\27[m\27[K In function ‘\27[01m\27[Knes_deinitex\27[m\27[K’:\
+\27[01m\27[Kport/nes_port.c:253:25:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused parameter ‘\27[01m\27[Knes\27[m\27[K’ [\27[01;35m\27[K-Wunused-parameter\27[m\27[K]\
+  253 | int nes_deinitex(\27[01;35m\27[Knes_t *nes\27[m\27[K){\
+      |                  \27[01;35m\27[K~~~~~~~^~~\27[m\27[K\
+"
+}

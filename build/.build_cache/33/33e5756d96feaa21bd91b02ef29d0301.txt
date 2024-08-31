@@ -1,0 +1,7 @@
+{
+    errdata = "\27[01m\27[Ksrc/nes.c:\27[m\27[K In function ‘\27[01m\27[Knes_render_background_line\27[m\27[K’:\
+\27[01m\27[Ksrc/nes.c:73:60:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused parameter ‘\27[01m\27[Kscanline\27[m\27[K’ [\27[01;35m\27[K-Wunused-parameter\27[m\27[K]\
+   73 | static void nes_render_background_line(nes_t* nes,\27[01;35m\27[Kuint16_t scanline\27[m\27[K,nes_color_t* draw_data){\
+      |                                                   \27[01;35m\27[K~~~~~~~~~^~~~~~~~\27[m\27[K\
+"
+}

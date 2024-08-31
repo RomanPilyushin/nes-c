@@ -1,0 +1,13 @@
+{
+    packages = {
+        "/home/roman/.xmake/packages/u/util-macros/1.20.0/21ebacb0450b4b16b06b586ecc142d3f",
+        "/home/roman/.xmake/packages/c/ca-certificates/20240207/248ec2a883cf403bad9ac86ef1158760",
+        "/home/roman/.xmake/packages/p/python/3.12.3/e060770aa5524556bd4dbd54471db6c0",
+        "/home/roman/.xmake/packages/x/xcb-proto/1.16.0/7664a16626db44ce8dec5aadad91c466",
+        "/home/roman/.xmake/packages/m/meson/1.5.1/483408b3fe904a36b4839181d67b3c18",
+        "/home/roman/.xmake/packages/n/ninja/1.11.1/e691430a7c3b4c6c8cc40e6379d16643",
+        "/home/roman/.xmake/packages/e/expat/2.6.2/2c765baf0d1647519289ede091f08f91",
+        "/home/roman/.xmake/packages/m/m4/1.4.19/8b7c7260096844c1a8b1c8d773e64b3d",
+        "/home/roman/.xmake/packages/b/bison/3.8.2/9487e874749340f7949f47fa547bc060"
+    }
+}
